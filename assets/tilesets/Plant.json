@@ -457,7 +457,7 @@
                         {
                          "name":"spawnQuantity",
                          "type":"int",
-                         "value":12
+                         "value":6
                         }, 
                         {
                          "name":"xMultiplier",
@@ -467,7 +467,7 @@
                         {
                          "name":"yMultiplier",
                          "type":"int",
-                         "value":7
+                         "value":6
                         }],
                  "rotation":0,
                  "type":"RELIC_MAP",
@@ -708,6 +708,183 @@
                  "width":0,
                  "x":336,
                  "y":448
+                }, 
+                {
+                 "height":0,
+                 "id":253,
+                 "name":"Yellow",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"guards",
+                         "type":"string",
+                         "value":"MASK_GOLD"
+                        }, 
+                        {
+                         "name":"spawnQuantity",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"xMultiplier",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"yMultiplier",
+                         "type":"int",
+                         "value":7
+                        }],
+                 "rotation":0,
+                 "type":"GOLD",
+                 "visible":true,
+                 "width":0,
+                 "x":704,
+                 "y":880
+                }, 
+                {
+                 "height":0,
+                 "id":254,
+                 "name":"Yellow",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"guards",
+                         "type":"string",
+                         "value":"MASK_SILVER"
+                        }, 
+                        {
+                         "name":"spawnQuantity",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"xMultiplier",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"yMultiplier",
+                         "type":"int",
+                         "value":-7
+                        }],
+                 "rotation":0,
+                 "type":"SILVER",
+                 "visible":true,
+                 "width":0,
+                 "x":1536,
+                 "y":416
+                }, 
+                {
+                 "height":0,
+                 "id":255,
+                 "name":"Yellow",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"guards",
+                         "type":"string",
+                         "value":"MASK_LEFT"
+                        }, 
+                        {
+                         "name":"spawnQuantity",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"xMultiplier",
+                         "type":"int",
+                         "value":-7
+                        }, 
+                        {
+                         "name":"yMultiplier",
+                         "type":"int",
+                         "value":0
+                        }],
+                 "rotation":0,
+                 "type":"LEFT",
+                 "visible":true,
+                 "width":0,
+                 "x":320,
+                 "y":1600
+                }, 
+                {
+                 "height":0,
+                 "id":256,
+                 "name":"Yellow",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"guards",
+                         "type":"string",
+                         "value":"MASK_RIGHT"
+                        }, 
+                        {
+                         "name":"spawnQuantity",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"xMultiplier",
+                         "type":"int",
+                         "value":7
+                        }, 
+                        {
+                         "name":"yMultiplier",
+                         "type":"int",
+                         "value":0
+                        }],
+                 "rotation":0,
+                 "type":"RIGHT",
+                 "visible":true,
+                 "width":0,
+                 "x":1968,
+                 "y":1648
+                }, 
+                {
+                 "height":0,
+                 "id":257,
+                 "name":"MRC",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":672,
+                 "y":864
+                }, 
+                {
+                 "height":0,
+                 "id":258,
+                 "name":"RELIC",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"guards",
+                         "type":"string",
+                         "value":"PATROL_XLARMOR_SWORD"
+                        }, 
+                        {
+                         "name":"spawnQuantity",
+                         "type":"int",
+                         "value":6
+                        }, 
+                        {
+                         "name":"xMultiplier",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"yMultiplier",
+                         "type":"int",
+                         "value":7
+                        }],
+                 "rotation":0,
+                 "type":"RELIC_GOUDA",
+                 "visible":true,
+                 "width":0,
+                 "x":1536,
+                 "y":544
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1364,7 +1541,7 @@
          "y":0
         }],
  "nextlayerid":14,
- "nextobjectid":253,
+ "nextobjectid":259,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.4.2",

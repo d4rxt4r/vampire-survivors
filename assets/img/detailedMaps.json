@@ -1,0 +1,62 @@
+{
+	"textures": [
+		{
+			"image": "detailedMaps.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1030,
+				"h": 516
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "MapAS.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 512
+					},
+					"frame": {
+						"x": 2,
+						"y": 2,
+						"w": 512,
+						"h": 512
+					}
+				},
+				{
+					"filename": "MapFS.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 512
+					},
+					"frame": {
+						"x": 516,
+						"y": 2,
+						"w": 512,
+						"h": 512
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:9dfee6a44a560640c442df647a599e48:dcdf964bcdbc5bd30e374724e6874c63:4103e6e4a851b39edaaef5767b6a837e$"
+	}
+}

@@ -2,57 +2,78 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport"
-		content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<meta http-equiv="Content-Security-Policy"
-		content="default-src 'none'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src *; font-src *; img-src 'self' data: blob:; style-src * 'unsafe-inline'; manifest-src * 'unsafe-inline';">
-	<meta name="theme-color" content="#000000" />
-	<link rel="manifest" href="./manifest.json" />
-	<meta name="mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="application-name" content="Vampire Survivors" />
-	<meta name="apple-mobile-web-app-title" content="Vampire Survivors" />
-	<meta name="msapplication-starturl" content="./" />
-	<link rel="icon" type="image/png" sizes="192x192" href="./icons/icons-192.png" />
-	<link rel="apple-touch-icon" type="image/png" sizes="192x192" href="./icons/icons-192.png" />
-	<link rel="icon" type="image/png" sizes="512x512" href="./icons/icons-512.png" />
-	<link rel="apple-touch-icon" type="image/png" sizes="512x512" href="./icons/icons-512.png" />
-	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-	<title>Vampire Survivors</title>
-	<style>
-		html,
-		body {
-			height: 100%;
-			margin: 0;
-			background-color: #000000;
-		}
-	</style>
-	<style media="screen">
-		@font-face {
-			font-family: fontANY;
-			src: url('src/assets/fonts/ANY.ttf');
-			font-weight: 400;
-			font-weight: normal;
-		}
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'none'; media-src *; script-src * 'unsafe-eval' 'unsafe-inline'; connect-src *; font-src *; img-src 'self' data: blob:; style-src * 'unsafe-inline'; manifest-src * 'unsafe-inline';">
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Vampire Survivors" />
+    <meta name="apple-mobile-web-app-title" content="Vampire Survivors" />
+    <meta name="msapplication-starturl" content="./" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icons-192.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="./icons/icons-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="./icons/icons-512.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="512x512" href="./icons/icons-512.png" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <title>Vampire Survivors PhaserJS v1.5.101</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            background-color: #000000;
+        }
+    </style>
+    <style media="screen">
+        @font-face {
+            font-family: fontANY;
+            src: url('./assets/fonts/ANY.eot');
+            /* IE9 Compat Modes */
+            src: url('./assets/fonts/ANY.eot?#iefix') format('embedded-opentype'),
+                /* IE6-IE8 */
+                url('./assets/fonts/ANY.woff2') format('woff2'),
+                /* Super Modern Browsers */
+                url('./assets/fonts/ANY.woff') format('woff'),
+                /* Pretty Modern Browsers */
+                url('./assets/fonts/ANY.ttf') format('truetype'),
+                /* Safari, Android, iOS */
+                url('./assets/fonts/ANY.svg#Courier') format('svg');
+            /* Legacy iOS */
+            font-weight: 400;
+            font-weight: normal;
+        }
 
-		@font-face {
-			font-family: fontKO;
-			src: url('src/assets/fonts/KO.ttf');
-			font-weight: 400;
-			font-weight: normal;
-		}
-	</style><noscript>Please enable javascript to continue using this application.</noscript>
-	<script defer="defer">
-		const global = {}
-	</script>
-	<script defer="defer" src="vendors.bundle.js?v=3.12c"></script>
-	<script defer="defer" src="./main.bundle.js?v=3.12c"></script>
+        @font-face {
+            font-family: fontKO;
+            src: url('./assets/fonts/KO.eot');
+            /* IE9 Compat Modes */
+            src: url('./assets/fonts/KO.eot?#iefix') format('embedded-opentype'),
+                /* IE6-IE8 */
+                url('./assets/fonts/KO.woff2') format('woff2'),
+                /* Super Modern Browsers */
+                url('./assets/fonts/KO.woff') format('woff'),
+                /* Pretty Modern Browsers */
+                url('./assets/fonts/KO.ttf') format('truetype'),
+                /* Safari, Android, iOS */
+                url('./assets/fonts/KO.svg#MaplestoryLight') format('svg');
+            /* Legacy iOS */
+            font-weight: 400;
+            font-weight: normal;
+        }
+    </style><noscript>Please enable javascript to continue using this application.</noscript>
+    <script defer="defer" src="vendors.bundle.js?v=1.5.101"></script>
+    <script defer="defer" src="./main.bundle.js?v=1.5.101"></script>
 </head>
 
 <body>
-	<div id="phaser-game"></div>
+    <div style="font-family:fontANY; position:absolute; left:-1000px; visibility:hidden;">.</div>
+    <div style="font-family:fontKO; position:absolute; left:-1000px; visibility:hidden;">.</div>
+    <div id="phaser-game"></div>
 </body>
 
 </html>

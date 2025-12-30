@@ -1,0 +1,377 @@
+{
+	"textures": [
+		{
+			"image": "background_Astral.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1024,
+				"h": 1024
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "door16.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 256,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 256,
+						"h": 128
+					},
+					"frame": {
+						"x": 3,
+						"y": 3,
+						"w": 256,
+						"h": 128
+					}
+				},
+				{
+					"filename": "door15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 244,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 244,
+						"h": 128
+					},
+					"frame": {
+						"x": 263,
+						"y": 3,
+						"w": 244,
+						"h": 128
+					}
+				},
+				{
+					"filename": "door14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 230,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 230,
+						"h": 128
+					},
+					"frame": {
+						"x": 511,
+						"y": 3,
+						"w": 230,
+						"h": 128
+					}
+				},
+				{
+					"filename": "door13.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 218,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 218,
+						"h": 128
+					},
+					"frame": {
+						"x": 745,
+						"y": 3,
+						"w": 218,
+						"h": 128
+					}
+				},
+				{
+					"filename": "door12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 204,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 204,
+						"h": 128
+					},
+					"frame": {
+						"x": 3,
+						"y": 135,
+						"w": 204,
+						"h": 128
+					}
+				},
+				{
+					"filename": "door11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 192,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 128
+					},
+					"frame": {
+						"x": 211,
+						"y": 135,
+						"w": 192,
+						"h": 128
+					}
+				},
+				{
+					"filename": "door10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 166,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 166,
+						"h": 128
+					},
+					"frame": {
+						"x": 407,
+						"y": 135,
+						"w": 166,
+						"h": 128
+					}
+				},
+				{
+					"filename": "door09.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 140,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 140,
+						"h": 128
+					},
+					"frame": {
+						"x": 577,
+						"y": 135,
+						"w": 140,
+						"h": 128
+					}
+				},
+				{
+					"filename": "door01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"frame": {
+						"x": 721,
+						"y": 135,
+						"w": 128,
+						"h": 128
+					}
+				},
+				{
+					"filename": "door02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"frame": {
+						"x": 853,
+						"y": 135,
+						"w": 128,
+						"h": 128
+					}
+				},
+				{
+					"filename": "door03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"frame": {
+						"x": 3,
+						"y": 267,
+						"w": 128,
+						"h": 128
+					}
+				},
+				{
+					"filename": "door04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"frame": {
+						"x": 3,
+						"y": 399,
+						"w": 128,
+						"h": 128
+					}
+				},
+				{
+					"filename": "door05.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"frame": {
+						"x": 3,
+						"y": 531,
+						"w": 128,
+						"h": 128
+					}
+				},
+				{
+					"filename": "door06.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"frame": {
+						"x": 3,
+						"y": 663,
+						"w": 128,
+						"h": 128
+					}
+				},
+				{
+					"filename": "door07.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"frame": {
+						"x": 3,
+						"y": 795,
+						"w": 128,
+						"h": 128
+					}
+				},
+				{
+					"filename": "door08.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"frame": {
+						"x": 135,
+						"y": 267,
+						"w": 128,
+						"h": 128
+					}
+				},
+				{
+					"filename": "carpet.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 121,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 121,
+						"h": 97
+					},
+					"frame": {
+						"x": 135,
+						"y": 399,
+						"w": 121,
+						"h": 97
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:651550036f4503022cac86fca0d2bc66:14fe1cdabab41182b27a71933071f906:cf3432a218eef1c462811cfc1e887b79$"
+	}
+}

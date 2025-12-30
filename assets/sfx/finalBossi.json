@@ -1,0 +1,42 @@
+{
+  "resources": [
+    "assets/sfx/VS - Final Boss - Fase 1.ogg"
+],
+  "spritemap": {
+    "Intro": {
+      "start": 0,
+      "end": 31.307,
+      "loop": false
+    },
+    "Main": {
+      "start": 0,
+      "end": 35.733,
+      "loop": false
+    },
+    "loop": {
+      "start": 8.943,
+      "end": 35.733,
+      "loop": false
+    },
+    "test1": {
+      "start": 0,
+      "end": 5.00,
+      "loop": false
+    },
+    "test2": {
+      "start": 5.00,
+      "end": 10.00,
+      "loop": false
+    },
+    "test3": {
+      "start": 10.00,
+      "end": 15.00,
+      "loop": false
+    },
+    "test4": {
+      "start": 15.00,
+      "end": 20.00,
+      "loop": false
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "resources": [
+    "assets/sfx/bgm_elrond_boss1.ogg"
+],
+  "spritemap": {
+    "loop": {
+      "start": 0,
+      "end": 35.733,
+      "loop": true
+    },
+    "part1": {
+      "start": 0,
+      "end": 8.943,
+      "loop": false
+    },
+    "part2": {
+      "start": 8.944,
+      "end": 17.886,
+      "loop": false
+    },
+    "part3": {
+      "start": 17.887,
+      "end": 26.797,
+      "loop": false
+    },
+    "part4": {
+      "start": 26.798,
+      "end": 35.733,
+      "loop": false
+    }
+  }
+}

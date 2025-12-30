@@ -1,0 +1,23 @@
+<font>
+	<info face="C:\Users\JohnWork\Work Projects\Vampire Survivors\Art\Titles\GoldenFinger_Numbers-export" size="80" />
+	<common lineHeight="80" scaleW="72" scaleH="73" pages="1" />
+	<pages>
+		<page id="0" file="C:\Users\JohnWork\Work Projects\Vampire Survivors\Art\Titles\GoldenFinger_Numbers-export.png" />
+	</pages>
+	<chars count="12">
+		<char id="48" x="19" y="0" width="18" height="24" xoffset="0" yoffset="56" xadvance="19" /><!-- 0 -->
+		<char id="49" x="56" y="0" width="14" height="24" xoffset="0" yoffset="56" xadvance="15" /><!-- 1 -->
+		<char id="50" x="0" y="48" width="18" height="24" xoffset="0" yoffset="56" xadvance="19" /><!-- 2 -->
+		<char id="51" x="38" y="0" width="17" height="24" xoffset="0" yoffset="56" xadvance="18" /><!-- 3 -->
+		<char id="52" x="19" y="25" width="17" height="24" xoffset="0" yoffset="56" xadvance="18" /><!-- 4 -->
+		<char id="53" x="0" y="0" width="18" height="22" xoffset="0" yoffset="58" xadvance="19" /><!-- 5 -->
+		<char id="54" x="55" y="25" width="16" height="24" xoffset="0" yoffset="56" xadvance="17" /><!-- 6 -->
+		<char id="55" x="19" y="50" width="16" height="22" xoffset="0" yoffset="58" xadvance="17" /><!-- 7 -->
+		<char id="56" x="0" y="23" width="18" height="24" xoffset="0" yoffset="56" xadvance="19" /><!-- 8 -->
+		<char id="57" x="37" y="25" width="17" height="24" xoffset="0" yoffset="56" xadvance="18" /><!-- 9 -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="20" /><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="160" /><!-- 	 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>
